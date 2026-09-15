@@ -15,10 +15,10 @@ using SoftwareDesignPrinciples.DesignPatterns.BehavioralPatterns;
 var demos = new (string Category, string Name, Action Run)[]
 {
     // ── OOP ──────────────────────────────────────────────────
-    ("OOP",                  "Encapsulation",                EncapsulationDemo.Run),
-    ("OOP",                  "Inheritance",                  InheritanceDemo.Run),
-    ("OOP",                  "Polymorphism",                 PolymorphismDemo.Run),
-    ("OOP",                  "Abstraction",                  AbstractionDemo.Run),
+    ("OOP",                  "Đóng gói (Encapsulation)",      EncapsulationDemo.Run),
+    ("OOP",                  "Trừu tượng (Abstraction)",     AbstractionDemo.Run),
+    ("OOP",                  "Kế thừa (Inheritance)",        InheritanceDemo.Run),
+    ("OOP",                  "Đa hình (Polymorphism)",       PolymorphismDemo.Run),
 
     // ── SOLID ────────────────────────────────────────────────
     ("SOLID",                "Single Responsibility (SRP)",  SingleResponsibilityDemo.Run),

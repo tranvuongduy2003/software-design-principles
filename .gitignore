@@ -15,6 +15,7 @@ obj/
 .vscode/
 *.swp
 *~
+.idea
 
 ## OS
 Thumbs.db

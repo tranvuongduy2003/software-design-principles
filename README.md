@@ -1,42 +1,42 @@
-# 📐 Software Design Principles
+# 📐 Các Nguyên Tắc Thiết Kế Phần Mềm
 
-A hands-on C# / .NET 10 reference for **OOP fundamentals**, **SOLID principles**, and all **23 Gang-of-Four design patterns** — built for learning and interview revision.
+Tài liệu tham khảo thực hành bằng C# / .NET 10 về **nền tảng OOP**, **nguyên tắc SOLID** và toàn bộ **23 mẫu thiết kế Gang-of-Four** — được xây dựng phục vụ cho việc học tập và ôn tập phỏng vấn.
 
-Run the interactive console menu to explore each concept with clear, self-contained demos you can read, run, and debug.
+Chạy ứng dụng console tương tác để khám phá từng khái niệm với các demo rõ ràng, độc lập mà bạn có thể đọc, chạy và debug.
 
 ---
 
-## 📚 What's Inside
+## 📚 Nội Dung
 
-### OOP — Object-Oriented Programming
-| # | Principle | Source |
-|---|-----------|--------|
-| 1 | Encapsulation | [`Encapsulation.cs`](OOP/Encapsulation.cs) |
-| 2 | Inheritance | [`Inheritance.cs`](OOP/Inheritance.cs) |
-| 3 | Polymorphism | [`Polymorphism.cs`](OOP/Polymorphism.cs) |
-| 4 | Abstraction | [`Abstraction.cs`](OOP/Abstraction.cs) |
+### OOP — Lập Trình Hướng Đối Tượng
+| # | Nguyên tắc | Mã nguồn |
+|---|------------|-----------|
+| 1 | Đóng gói (Encapsulation) | [`Encapsulation.cs`](OOP/Encapsulation.cs) |
+| 2 | Kế thừa (Inheritance) | [`Inheritance.cs`](OOP/Inheritance.cs) |
+| 3 | Đa hình (Polymorphism) | [`Polymorphism.cs`](OOP/Polymorphism.cs) |
+| 4 | Trừu tượng (Abstraction) | [`Abstraction.cs`](OOP/Abstraction.cs) |
 
-### SOLID Principles
-| # | Principle | Source |
-|---|-----------|--------|
-| 1 | Single Responsibility (SRP) | [`SingleResponsibility.cs`](SOLID/SingleResponsibility.cs) |
-| 2 | Open/Closed (OCP) | [`OpenClosed.cs`](SOLID/OpenClosed.cs) |
-| 3 | Liskov Substitution (LSP) | [`LiskovSubstitution.cs`](SOLID/LiskovSubstitution.cs) |
-| 4 | Interface Segregation (ISP) | [`InterfaceSegregation.cs`](SOLID/InterfaceSegregation.cs) |
-| 5 | Dependency Inversion (DIP) | [`DependencyInversion.cs`](SOLID/DependencyInversion.cs) |
+### Nguyên Tắc SOLID
+| # | Nguyên tắc | Mã nguồn |
+|---|------------|-----------|
+| 1 | Nguyên tắc Đơn Nhiệm (SRP) | [`SingleResponsibility.cs`](SOLID/SingleResponsibility.cs) |
+| 2 | Nguyên tắc Đóng/Mở (OCP) | [`OpenClosed.cs`](SOLID/OpenClosed.cs) |
+| 3 | Nguyên tắc Thay thế Liskov (LSP) | [`LiskovSubstitution.cs`](SOLID/LiskovSubstitution.cs) |
+| 4 | Nguyên tắc Phân tách Interface (ISP) | [`InterfaceSegregation.cs`](SOLID/InterfaceSegregation.cs) |
+| 5 | Nguyên tắc Đảo ngược Phụ thuộc (DIP) | [`DependencyInversion.cs`](SOLID/DependencyInversion.cs) |
 
-### Design Patterns — Creational
-| # | Pattern | Source |
-|---|---------|--------|
+### Mẫu Thiết Kế — Khởi Tạo (Creational)
+| # | Mẫu | Mã nguồn |
+|---|------|-----------|
 | 1 | Singleton | [`SingletonPattern.cs`](DesignPatterns/CreationalPatterns/SingletonPattern.cs) |
 | 2 | Factory Method | [`FactoryMethodPattern.cs`](DesignPatterns/CreationalPatterns/FactoryMethodPattern.cs) |
 | 3 | Abstract Factory | [`AbstractFactoryPattern.cs`](DesignPatterns/CreationalPatterns/AbstractFactoryPattern.cs) |
 | 4 | Builder | [`BuilderPattern.cs`](DesignPatterns/CreationalPatterns/BuilderPattern.cs) |
 | 5 | Prototype | [`PrototypePattern.cs`](DesignPatterns/CreationalPatterns/PrototypePattern.cs) |
 
-### Design Patterns — Structural
-| # | Pattern | Source |
-|---|---------|--------|
+### Mẫu Thiết Kế — Cấu Trúc (Structural)
+| # | Mẫu | Mã nguồn |
+|---|------|-----------|
 | 1 | Adapter | [`AdapterPattern.cs`](DesignPatterns/StructuralPatterns/AdapterPattern.cs) |
 | 2 | Bridge | [`BridgePattern.cs`](DesignPatterns/StructuralPatterns/BridgePattern.cs) |
 | 3 | Composite | [`CompositePattern.cs`](DesignPatterns/StructuralPatterns/CompositePattern.cs) |
@@ -45,9 +45,9 @@ Run the interactive console menu to explore each concept with clear, self-contai
 | 6 | Flyweight | [`FlyweightPattern.cs`](DesignPatterns/StructuralPatterns/FlyweightPattern.cs) |
 | 7 | Proxy | [`ProxyPattern.cs`](DesignPatterns/StructuralPatterns/ProxyPattern.cs) |
 
-### Design Patterns — Behavioral
-| # | Pattern | Source |
-|---|---------|--------|
+### Mẫu Thiết Kế — Hành Vi (Behavioral)
+| # | Mẫu | Mã nguồn |
+|---|------|-----------|
 | 1 | Chain of Responsibility | [`ChainOfResponsibilityPattern.cs`](DesignPatterns/BehavioralPatterns/ChainOfResponsibilityPattern.cs) |
 | 2 | Command | [`CommandPattern.cs`](DesignPatterns/BehavioralPatterns/CommandPattern.cs) |
 | 3 | Iterator | [`IteratorPattern.cs`](DesignPatterns/BehavioralPatterns/IteratorPattern.cs) |
@@ -61,44 +61,52 @@ Run the interactive console menu to explore each concept with clear, self-contai
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Bắt Đầu
 
-### Prerequisites
+### Yêu cầu
 
-- [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) or later
+- [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) trở lên
 
-### Run
+### Chạy ứng dụng
 
 ```bash
 dotnet run
 ```
 
-An interactive menu will appear — pick a number to run any demo, or press `0` to run them all sequentially.
+Menu tương tác sẽ hiện ra — chọn số để chạy demo bất kỳ, hoặc nhấn `0` để chạy tất cả lần lượt.
 
 ---
 
-## 🗂️ Project Structure
+### Cách đọc tài liệu
+
+Sử dụng `Documentation Tool Window` của `JetBrains Rider` để có trải nghiệm đọc tốt nhất:
+
+![Demo Image](image.png)
+
+---
+
+## 🗂️ Cấu Trúc Dự Án
 
 ```
 software-design-principles/
-├── OOP/                          # 4 OOP pillars
-├── SOLID/                        # 5 SOLID principles
+├── OOP/                          # 4 trụ cột OOP
+├── SOLID/                        # 5 nguyên tắc SOLID
 ├── DesignPatterns/
-│   ├── CreationalPatterns/       # 5 patterns
-│   ├── StructuralPatterns/       # 7 patterns
-│   └── BehavioralPatterns/       # 10 patterns
-├── Program.cs                    # Interactive console menu
+│   ├── CreationalPatterns/       # 5 mẫu khởi tạo
+│   ├── StructuralPatterns/       # 7 mẫu cấu trúc
+│   └── BehavioralPatterns/       # 10 mẫu hành vi
+├── Program.cs                    # Menu console tương tác
 └── SoftwareDesignPrinciples.csproj
 ```
 
 ---
 
-## 🤝 Contributing
+## 🤝 Đóng Góp
 
-Contributions are welcome! Feel free to open an issue or submit a pull request if you'd like to add more examples, improve explanations, or fix bugs.
+Mọi đóng góp đều được chào đón! Hãy tạo issue hoặc gửi pull request nếu bạn muốn thêm ví dụ, cải thiện giải thích hoặc sửa lỗi.
 
 ---
 
-## 📄 License
+## 📄 Giấy Phép
 
-This project is licensed under the [MIT License](LICENSE).
+Dự án này được cấp phép theo [Giấy phép MIT](LICENSE).
