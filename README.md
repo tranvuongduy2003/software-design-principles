@@ -1,6 +1,6 @@
 # 📐 Software Design Principles
 
-A hands-on C# / .NET 8 reference for **OOP fundamentals**, **SOLID principles**, and all **23 Gang-of-Four design patterns** — built for learning and interview revision.
+A hands-on C# / .NET 10 reference for **OOP fundamentals**, **SOLID principles**, and all **23 Gang-of-Four design patterns** — built for learning and interview revision.
 
 Run the interactive console menu to explore each concept with clear, self-contained demos you can read, run, and debug.
 
@@ -65,7 +65,7 @@ Run the interactive console menu to explore each concept with clear, self-contai
 
 ### Prerequisites
 
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) or later
+- [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) or later
 
 ### Run
 
