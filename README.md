@@ -25,6 +25,13 @@ Chạy ứng dụng console tương tác để khám phá từng khái niệm v�
 | 4 | Nguyên tắc Phân tách Interface (ISP) | [`InterfaceSegregation.cs`](SOLID/InterfaceSegregation.cs) |
 | 5 | Nguyên tắc Đảo ngược Phụ thuộc (DIP) | [`DependencyInversion.cs`](SOLID/DependencyInversion.cs) |
 
+### Vòng Đời Dịch Vụ Trong Dependency Injection (DI)
+| # | Vòng đời (Lifetime) | Mã nguồn |
+|---|----------------------|-----------|
+| 1 | Transient Lifetime | [`Transient.cs`](DependencyInjection/Transient.cs) |
+| 2 | Scoped Lifetime | [`Scoped.cs`](DependencyInjection/Scoped.cs) |
+| 3 | Singleton Lifetime | [`Singleton.cs`](DependencyInjection/Singleton.cs) |
+
 ### Mẫu Thiết Kế — Khởi Tạo (Creational)
 | # | Mẫu | Mã nguồn |
 |---|------|-----------|

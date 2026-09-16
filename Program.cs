@@ -1,5 +1,6 @@
 using SoftwareDesignPrinciples.OOP;
 using SoftwareDesignPrinciples.SOLID;
+using SoftwareDesignPrinciples.DependencyInjection;
 using SoftwareDesignPrinciples.DesignPatterns.CreationalPatterns;
 using SoftwareDesignPrinciples.DesignPatterns.StructuralPatterns;
 using SoftwareDesignPrinciples.DesignPatterns.BehavioralPatterns;
@@ -26,6 +27,11 @@ var demos = new (string Category, string Name, Action Run)[]
     ("SOLID",                "Liskov Substitution (LSP)",    LiskovSubstitutionDemo.Run),
     ("SOLID",                "Interface Segregation (ISP)",  InterfaceSegregationDemo.Run),
     ("SOLID",                "Dependency Inversion (DIP)",   DependencyInversionDemo.Run),
+
+    // ── Dependency Injection ──────────────────────────────────
+    ("Dependency Injection", "Transient Lifetime",           TransientDemo.Run),
+    ("Dependency Injection", "Scoped Lifetime",              ScopedDemo.Run),
+    ("Dependency Injection", "Singleton Lifetime",           SingletonDemo.Run),
 
     // ── Creational Patterns ──────────────────────────────────
     ("Creational Patterns",  "Singleton",                    SingletonPatternDemo.Run),
